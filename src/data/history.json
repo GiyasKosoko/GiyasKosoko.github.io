@@ -4,7 +4,14 @@
     "organisation": "Code Ninjas",
     "startDate": "Mar, 2022",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": [
+      "Designed and implemented a competitive programming curriculum (Python, C++)",
+      "Led hands-on coding sessions in JavaScript, Python, and game development",
+      "Conducted code reviews and provided debugging and version control guidance",
+      "Trained and supervised junior instructors to improve program delivery",
+      "Collaborated with instructors using agile, project-based workflows",
+      "Built tracking systems (Excel, Notion, Google Sheets) to monitor performance and outcomes"
+    ],
     "imageSrc": "history/codeninjas.png"
   }
 ]
