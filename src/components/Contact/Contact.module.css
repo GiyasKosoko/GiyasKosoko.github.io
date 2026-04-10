@@ -9,7 +9,7 @@
   justify-content: space-evenly;
   width: 100%;
   max-width: 1200px; /* optional — keeps content from stretching too wide on large screens */
-  margin: 0 auto; /* centers the container horizontally */
+  margin: 160px auto 0 auto;
   padding: 58px 10%;
   gap: 10px;
 }
@@ -31,19 +31,21 @@
   padding: 0;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: nowrap;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 12px;
 }
 
 .link a {
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
 }
