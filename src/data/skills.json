@@ -36,7 +36,11 @@
       "imageSrc": "skills/java.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "R",
+      "imageSrc": "skills/r.png"
+    },
+    {
+      "title": "Tableau",
+      "imageSrc": "skills/tableau.png"
     }
   ]
