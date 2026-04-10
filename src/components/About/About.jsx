@@ -16,29 +16,22 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
-              <h3>Front End Developer</h3>
-              <p>Stuff about me being a front-end developer.</p>
+              <h3>Full Stack Developer</h3>
+              <p>I build full-stack web applications that are fast, scalable, and user-focused. From clean front-end interfaces to efficient back-end systems, I focus on writing reliable code and turning ideas into real, working products.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
               <h3>Data Analyst</h3>
-              <p>Stuff about me being a data analyst.</p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
-            <div className={styles.aboutItemTxt}>
-              <h3>UI/UX Designer</h3>
-              <p>Stuff about me being a UI/UX designer.</p>
+              <p>I analyze data to find patterns, track performance, and support better decisions. I turn raw data into clear insights using tools like Python, SQL, and Excel.</p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
               <h3>Coding Instructor</h3>
-              <p>Stuff about me being a coding instructor.</p>
+              <p>I teach coding through hands-on, project-based learning. I help students understand how to think like developers, solve problems, and build real applications.</p>
             </div>
           </li>
         </ul>
