@@ -59,3 +59,33 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
+
+button.link {
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.dialog {
+  margin: auto;
+  box-sizing: border-box;
+  width: min(600px, 90vw);
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 28px;
+  border: none;
+  border-radius: 16px;
+  background: #172a46;
+  color: white;
+}
+
+.dialog::backdrop {
+  background: rgb(0 0 0 / 70%);
+}
+
+.dialog p {
+  margin: 20px 0;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+

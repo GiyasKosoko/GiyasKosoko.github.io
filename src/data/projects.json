@@ -1,26 +1,54 @@
 [
-    {
-      "title": "Catering Website",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "CyberSource SOC 2 Vendor Security Risk Review",
+    "imageSrc": "projects/project.png",
+    "description": "Analyzed a SOC 2 Type II report to identify vendor risks, evidence gaps and approval conditions for a simulated financial-services organization.",
+    "skills": [
+      "SOC 2 report analysis",
+      "Risk identification and assessment",
+      "Risk-register development",
+      "Control and evidence evaluation"
+    ],
+    "details": "In this collaborative academic case study, our team evaluated CyberSource as a proposed payment-processing provider for FinBank using a supplied SOC 2 Type II report and business scenario. My primary contributions involved analyzing the case details, identifying risks and developing a structured risk register covering assurance age, payment integrity, subservice dependencies, customer controls, privacy, key management and operational resilience. The assessment translated technical assurance information into business-focused risk treatments and recommended conditional approval until the required evidence and controls were verified.",
+    "view": "https://drive.google.com/file/d/1Cr2h_W2TTkIrzI3utR7fWnSz32ZetvVF/view?usp=sharing"
+  },
+  {
+    "title": "DataMedi Third-Party Risk Management Assessment",
+    "imageSrc": "projects/project.png",
+    "description": "Conducted a lifecycle-based third-party risk assessment of a simulated healthcare cloud vendor handling protected health information.",
+    "skills": [
+      "Third-party risk management",
+      "Vendor due diligence",
+      "Risk analysis and prioritization",
+      "Security and privacy control assessment"
+    ],
+    "details": "This collaborative academic project assessed the risks of HealthSecure using DataMedi for cloud storage and analytics involving protected health information. My primary contributions focused on analyzing the vendor scenario, identifying cybersecurity, privacy, operational, regulatory and fourth-party risks, and organizing them into a prioritized risk register. The final assessment covered vendor classification, due diligence, contractual safeguards, continuous monitoring, incident requirements and secure offboarding, resulting in a recommendation for conditional approval with production data restricted until critical evidence and contractual requirements were satisfied.",
+    "view": "https://drive.google.com/file/d/1_SCD1fIzBOlmSJK3Z6pDn7b5u4yIRjfL/view?usp=sharing"
+  },
+  {
+    "title": "TechFinance Identity and Access Management Control Assessment",
+    "imageSrc": "projects/project.png",
+    "description": "Developed a risk-based IAM control assessment addressing privileged access, MFA, access reviews, account lifecycles and security monitoring.",
+    "skills": [
+      "Identity and access management",
+      "Control design and testing",
+      "Issue-register development",
+      "Remediation planning"
+    ],
+    "details": "In this collaborative academic case study, our team designed an identity and access management control framework for a simulated financial-technology company experiencing outdated access rights, inadequate privileged-account MFA and insufficient monitoring. My primary contributions included identifying the associated risks, analyzing the case information and developing an issue register with proposed ratings, owners, remediation actions, timelines and closure evidence. The project also defined an IAM security baseline, sample control-testing procedures and a 30-60-90-day implementation roadmap.",
+    "view": "https://drive.google.com/file/d/14rj-AG4zBqV0AgUwTIJPEONhH_kpgYF0/view?usp=sharing"
+  },
+  {
+    "title": "Healthcare Cyber Risk and Governance Brief",
+    "imageSrc": "projects/project.png",
+    "description": "Examined healthcare cybersecurity risks, regulatory complexity and second-line governance responsibilities across multiple jurisdictions.",
+    "skills": [
+      "Cybersecurity risk identification",
+      "Regulatory analysis",
+      "Security governance",
+      "Executive risk communication"
+    ],
+    "details": "This collaborative academic briefing explored how ransomware, patient-data breaches, identity compromise and third-party dependencies can affect healthcare operations, regulatory obligations and patient trust. My contribution focused on analyzing the case-study risks and organizing the information into decision-relevant themes covering confidentiality, integrity, availability and regulatory requirements across the United States, European Union, United Kingdom, Canada and Australia. The project also examined how the Three Lines Model separates risk ownership, oversight and independent assurance within a healthcare organization.",
+    "view": "https://drive.google.com/file/d/1Ex210eFC2jniP_JqFB2hElbFpSrGLIsh/view?usp=sharing"
+  }
+]
