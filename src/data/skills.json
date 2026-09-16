@@ -1,46 +1,54 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "id": "grc",
+    "title": "Cybersecurity and GRC",
+    "skills": [
+      "Risk Assessment",
+      "Risk Register Development",
+      "Security Control Assessment",
+      "Control Testing",
+      "Third-Party Risk Management",
+      "Identity and Access Management",
+      "Security Documentation",
+      "Remediation Tracking"
+    ]
   },
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "id": "frameworks",
+    "title": "Frameworks and Standards",
+    "level": "Working Knowledge",
+    "skills": [
+      "NIST CSF",
+      "NIST SP 800-53",
+      "ISO 27001",
+      "CIS Controls",
+      "SOC 2"
+    ]
   },
   {
-    "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "id": "data",
+    "title": "Data and Reporting",
+    "skills": [
+      "Excel",
+      "SQL",
+      "R",
+      "MongoDB",
+      "Python",
+      "Tableau",
+      "BigQuery",
+      "Data Analysis",
+      "Metrics and Reporting"
+    ]
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
-  },
-  {
-    "title": "Node",
-    "imageSrc": "skills/node.png"
-  },
-  {
-    "title": "SQL",
-    "imageSrc": "skills/SQL.png"
-  },
-  {
-    "title": "MongoDB",
-    "imageSrc": "skills/mongodb.png"
-  },
-  {
-    "title": "Python",
-    "imageSrc": "skills/python.png"
-  },
-  {
-    "title": "Java",
-    "imageSrc": "skills/java.png"
-  },
-  {
-    "title": "R",
-    "imageSrc": "skills/r.png"
-  },
-  {
-    "title": "Tableau",
-    "imageSrc": "skills/tableau.png"
+    "id": "development",
+    "title": "Development",
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "HTML and CSS",
+      "Git and GitHub"
+    ]
   }
 ]

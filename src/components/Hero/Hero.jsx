@@ -8,17 +8,21 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Giyas.</h1>
         <h2 className={styles.subtitle}>
-          Full Stack Developer | Data Enthusiast | Problem Solver
+          GRC Analyst | Data Enthusiast | Web Developer
         </h2>
         <div className={styles.description}>
           <p>
-            I’m an adaptive full-stack developer and data enthusiast who builds
-            responsive, accessible, and data-driven web tools. I turn ideas into
-            clean, functional designs that make an impact—combining creativity
-            and logic to craft user-friendly experiences that bridge data,
-            design, and purpose. With experience in JavaScript, React, Node.js,
-            and Python, I create human-centered solutions that empower
-            education, community growth, and social impact.
+            I’m a technology professional building my career in cybersecurity
+            governance, risk, and compliance, supported by a foundation in
+            software development and data analysis. I identify risks, assess
+            security controls, organize evidence, and translate complex
+            technical and business information into clear, practical
+            recommendations. My experience with JavaScript, Python, SQL,
+            reporting, and data visualization strengthens my ability to analyze
+            details, recognize patterns, and communicate findings. I’m focused
+            on helping organizations make informed security, compliance, and
+            risk decisions while continuing to build accessible, data-informed
+            technical solutions.
           </p>
         </div>
         <a href="mailto:atandagk@outlook.com" className={styles.contactBtn}>

@@ -16,22 +16,44 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
+              <h3>GRC Analyst</h3>
+              <p>
+                I analyze cybersecurity risks, evaluate security controls, and organize evidence to support informed business decisions. I focus on risk assessments, control testing, IAM, third-party risk, and translating frameworks such as NIST, ISO 27001, CIS Controls, and SOC 2 into clear findings and practical recommendations.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
+            <div className={styles.aboutItemTxt}>
               <h3>Full Stack Developer</h3>
-              <p>I build full-stack web applications that are fast, scalable, and user-focused. From clean front-end interfaces to efficient back-end systems, I focus on writing reliable code and turning ideas into real, working products.</p>
+              <p>
+                I build full-stack web applications that are fast, scalable, and
+                user-focused. From clean front-end interfaces to efficient
+                back-end systems, I focus on writing reliable code and turning
+                ideas into real, working products.
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
               <h3>Data Analyst</h3>
-              <p>I analyze data to find patterns, track performance, and support better decisions. I turn raw data into clear insights using tools like Python, SQL, and Excel.</p>
+              <p>
+                I analyze data to find patterns, track performance, and support
+                better decisions. I turn raw data into clear insights using
+                tools like Python, SQL, and Excel.
+              </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemTxt}>
               <h3>Coding Instructor</h3>
-              <p>I teach coding through hands-on, project-based learning. I help students understand how to think like developers, solve problems, and build real applications.</p>
+              <p>
+                I teach coding through hands-on, project-based learning. I help
+                students understand how to think like developers, solve
+                problems, and build real applications.
+              </p>
             </div>
           </li>
         </ul>

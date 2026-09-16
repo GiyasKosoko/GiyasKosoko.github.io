@@ -4,7 +4,16 @@ import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source, view, details },
+  project: {
+    title,
+    imageSrc,
+    description,
+    skills,
+    demo,
+    source,
+    view,
+    details,
+  },
 }) => {
   const dialogRef = useRef(null);
 
@@ -44,7 +53,7 @@ export const ProjectCard = ({
               target="_blank"
               rel="noopener noreferrer"
             >
-              View PDF
+              View
             </a>
           </>
         ) : (

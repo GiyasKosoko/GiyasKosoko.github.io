@@ -24,43 +24,100 @@
 }
 
 .skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
   width: 100%;
+  margin-bottom: 48px;
+}
+
+.skillCategory {
+  min-width: 0;
+  padding: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 16px;
+  background: rgba(11, 36, 71, 0.75);
+}
+
+.grcCategory {
+  grid-column: 1 / -1;
+  background: linear-gradient(120deg, #19376d, #0b2447);
+}
+
+.categoryHeading {
   display: flex;
   flex-wrap: wrap;
-  gap: 37px;
-  margin-bottom: 60px;
-  justify-content: center;
-  padding-bottom: 40px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.categoryHeading h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.knowledgeLabel {
+  padding: 5px 10px;
+  border-radius: 6px;
+  background: #233b64;
+  color: #d6e3ff;
+  font-size: 14px;
+}
+
+.capabilityList, .skillList {
+  list-style: none;
+  gap: 12px;
+}
+
+.capabilityList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skill {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 11px;
+  gap: 12px;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
+.skillList .skill {
+  padding: 8px 14px;
+  background: rgba(87, 108, 188, 0.18);
+  border-radius: 8px;
+}
+
+.skillIcon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 120px;
+  flex: 0 0 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #b8ccff;
 }
 
-.skillImageContainer img {
-  width: 75px;
+.skillIcon svg { width: 24px; height: 24px; }
+
+.historyHeading {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 24px;
+  font-size: 26px;
 }
 
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+@media screen and (max-width: 600px) {
+  .skills, .capabilityList { grid-template-columns: 1fr; }
+  .skillCategory { padding: 20px; }
 }
-
 .history {
   width: 100%;
   display: flex;
@@ -152,3 +209,4 @@
     gap: 9px;
   }
 }
+
