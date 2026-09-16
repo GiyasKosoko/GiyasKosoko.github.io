@@ -3,7 +3,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  flex: 0 1 calc((100% - 40px) / 3);
+  flex: 0 0 360px;
+  scroll-snap-align: start;
   min-width: 0;
   padding: 28px;
   border: 1px solid rgba(255, 255, 255, 0.14);
@@ -121,11 +122,7 @@
   white-space: pre-line;
 }
 
-@media screen and (max-width: 1000px) {
-  .container { flex-basis: calc((100% - 20px) / 2); }
-}
-
 @media screen and (max-width: 600px) {
-  .container { flex-basis: 100%; padding: 20px; }
+  .container { flex-basis: 90%; padding: 20px; }
   .dialog { padding: 20px; }
 }

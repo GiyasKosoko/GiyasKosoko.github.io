@@ -29,14 +29,31 @@ export const Experience = () => {
             >
               <div className={styles.categoryHeading}>
                 <h3 id={`skills-${category.id}`}>{category.title}</h3>
-                {category.level && <p className={styles.knowledgeLabel}>{category.level}</p>}
+                {category.level && (
+                  <p className={styles.knowledgeLabel}>{category.level}</p>
+                )}
               </div>
-              <ul className={category.id === "grc" ? styles.capabilityList : styles.skillList}>
+              <ul
+                className={
+                  category.id === "grc"
+                    ? styles.capabilityList
+                    : styles.skillList
+                }
+              >
                 {category.skills.map((skill, index) => (
                   <li key={skill} className={styles.skill}>
                     {category.id === "grc" && (
                       <span className={styles.skillIcon}>
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true" focusable="false">
+                        <svg
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          strokeWidth="1.6"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          aria-hidden="true"
+                          focusable="false"
+                        >
                           <path d={capabilityIcons[index]} />
                         </svg>
                       </span>
@@ -48,7 +65,7 @@ export const Experience = () => {
             </section>
           ))}
         </div>
-        <h3 className={styles.historyHeading}>Work Experience</h3>
+        <h3 className={styles.historyHeading}>Work History</h3>
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
@@ -77,4 +94,3 @@ export const Experience = () => {
     </section>
   );
 };
-
