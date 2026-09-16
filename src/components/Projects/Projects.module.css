@@ -1,7 +1,6 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
   color: var(--color-text);
   margin: var(--section-spacing) auto;
   max-width: 1200px;
@@ -16,12 +15,12 @@
 }
 
 .projects {
-  margin-top: 37px;
+  margin-top: 24px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  gap: 15px;
+  gap: 20px;
   width: 100%;
 }
